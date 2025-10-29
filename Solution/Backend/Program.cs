@@ -1,4 +1,12 @@
+using Backend;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Tentukan lokasi file database (di folder yang sama dengan .exe)
+var dbPath = "snakegame.db";
+builder.Services.AddDbContext<ApiDbContext>(options =>
+    options.UseSqlite($"Data Source={dbPath}"));
 
 // Add services to the container.
 

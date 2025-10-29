@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XADeKw0vVfU=",
+  "dgSpecHash": "MAFVuV+SslI=",
   "success": true,
   "projectFilePath": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Frontend\\Frontend.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Calvin Julianza\\.nuget\\packages\\system.io.pipelines\\9.0.10\\system.io.pipelines.9.0.10.nupkg.sha512",
+    "C:\\Users\\Calvin Julianza\\.nuget\\packages\\system.net.http.json\\9.0.10\\system.net.http.json.9.0.10.nupkg.sha512",
+    "C:\\Users\\Calvin Julianza\\.nuget\\packages\\system.text.encodings.web\\9.0.10\\system.text.encodings.web.9.0.10.nupkg.sha512",
+    "C:\\Users\\Calvin Julianza\\.nuget\\packages\\system.text.json\\9.0.10\\system.text.json.9.0.10.nupkg.sha512"
+  ],
   "logs": []
 }
