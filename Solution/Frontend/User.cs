@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Frontend
 {
-    public class HighScore
+    public class User
     {
         public int Id { get; set; }
         public string PlayerName { get; set; }
-        public int Score { get; set; }
-        public int Level { get; set; }
+        public string Password { get; set; }
     }
 }

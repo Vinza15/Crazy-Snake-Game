@@ -30,15 +30,21 @@
         {
             components = new System.ComponentModel.Container();
             panelGame = new Panel();
+            btnExitToMenu = new Button();
+            btnStartNewGame = new Button();
+            btnContinueGame = new Button();
+            btnLogin = new Button();
+            txtPassword = new TextBox();
+            Password = new Label();
             pbCanvas = new PictureBox();
-            lblScore = new Label();
-            btnStart = new Button();
-            Nama = new Label();
-            txtPlayerName = new TextBox();
+            lblGameInfo = new Label();
+            Username = new Label();
+            txtUsername = new TextBox();
             panelLeaderboard = new Panel();
             lvLeaderboard = new ListView();
             columnName = new ColumnHeader();
             columnScore = new ColumnHeader();
+            columnLevel = new ColumnHeader();
             btnRefresh = new Button();
             label1 = new Label();
             gameTimer = new System.Windows.Forms.Timer(components);
@@ -50,63 +56,116 @@
             // panelGame
             // 
             panelGame.BorderStyle = BorderStyle.FixedSingle;
+            panelGame.Controls.Add(btnExitToMenu);
+            panelGame.Controls.Add(btnStartNewGame);
+            panelGame.Controls.Add(btnContinueGame);
+            panelGame.Controls.Add(btnLogin);
+            panelGame.Controls.Add(txtPassword);
+            panelGame.Controls.Add(Password);
             panelGame.Controls.Add(pbCanvas);
-            panelGame.Controls.Add(lblScore);
-            panelGame.Controls.Add(btnStart);
-            panelGame.Controls.Add(Nama);
-            panelGame.Controls.Add(txtPlayerName);
+            panelGame.Controls.Add(lblGameInfo);
+            panelGame.Controls.Add(Username);
+            panelGame.Controls.Add(txtUsername);
             panelGame.Dock = DockStyle.Left;
             panelGame.Location = new Point(0, 0);
             panelGame.Name = "panelGame";
-            panelGame.Size = new Size(466, 561);
+            panelGame.Size = new Size(475, 581);
             panelGame.TabIndex = 0;
+            // 
+            // btnExitToMenu
+            // 
+            btnExitToMenu.Location = new Point(143, 542);
+            btnExitToMenu.Name = "btnExitToMenu";
+            btnExitToMenu.Size = new Size(150, 23);
+            btnExitToMenu.TabIndex = 10;
+            btnExitToMenu.Text = "Keluar ke Menu";
+            btnExitToMenu.UseVisualStyleBackColor = true;
+            btnExitToMenu.Click += btnExitToMenu_Click;
+            // 
+            // btnStartNewGame
+            // 
+            btnStartNewGame.Enabled = false;
+            btnStartNewGame.Location = new Point(218, 75);
+            btnStartNewGame.Name = "btnStartNewGame";
+            btnStartNewGame.Size = new Size(75, 23);
+            btnStartNewGame.TabIndex = 9;
+            btnStartNewGame.Text = "Game Baru";
+            btnStartNewGame.UseVisualStyleBackColor = true;
+            btnStartNewGame.Click += btnStartNewGame_Click;
+            // 
+            // btnContinueGame
+            // 
+            btnContinueGame.Enabled = false;
+            btnContinueGame.Location = new Point(112, 75);
+            btnContinueGame.Name = "btnContinueGame";
+            btnContinueGame.Size = new Size(75, 23);
+            btnContinueGame.TabIndex = 8;
+            btnContinueGame.Text = "Lanjutkan";
+            btnContinueGame.UseVisualStyleBackColor = true;
+            btnContinueGame.Click += btnContinueGame_Click;
+            // 
+            // btnLogin
+            // 
+            btnLogin.Location = new Point(344, 26);
+            btnLogin.Name = "btnLogin";
+            btnLogin.Size = new Size(98, 23);
+            btnLogin.TabIndex = 7;
+            btnLogin.Text = "Login / Register";
+            btnLogin.UseVisualStyleBackColor = true;
+            btnLogin.Click += btnLogin_Click;
+            // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(83, 41);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(250, 23);
+            txtPassword.TabIndex = 6;
+            txtPassword.UseSystemPasswordChar = true;
+            // 
+            // Password
+            // 
+            Password.AutoSize = true;
+            Password.Location = new Point(11, 44);
+            Password.Name = "Password";
+            Password.Size = new Size(63, 15);
+            Password.TabIndex = 5;
+            Password.Text = "Password :";
             // 
             // pbCanvas
             // 
             pbCanvas.BackColor = SystemColors.AppWorkspace;
-            pbCanvas.Location = new Point(11, 97);
+            pbCanvas.Location = new Point(11, 135);
             pbCanvas.Name = "pbCanvas";
-            pbCanvas.Size = new Size(431, 439);
+            pbCanvas.Size = new Size(450, 400);
             pbCanvas.TabIndex = 4;
             pbCanvas.TabStop = false;
-            pbCanvas.Click += pbCanvas_Click;
             pbCanvas.Paint += pbCanvas_Paint;
             // 
-            // lblScore
+            // lblGameInfo
             // 
-            lblScore.AutoSize = true;
-            lblScore.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
-            lblScore.Location = new Point(11, 59);
-            lblScore.Name = "lblScore";
-            lblScore.Size = new Size(62, 21);
-            lblScore.TabIndex = 3;
-            lblScore.Text = "Skor: 0";
+            lblGameInfo.AutoSize = true;
+            lblGameInfo.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
+            lblGameInfo.Location = new Point(11, 101);
+            lblGameInfo.Name = "lblGameInfo";
+            lblGameInfo.Size = new Size(217, 21);
+            lblGameInfo.TabIndex = 3;
+            lblGameInfo.Text = "Level: 1 | Skor: 0 / Target: ??";
             // 
-            // btnStart
+            // Username
             // 
-            btnStart.Location = new Point(367, 11);
-            btnStart.Name = "btnStart";
-            btnStart.Size = new Size(75, 23);
-            btnStart.TabIndex = 2;
-            btnStart.Text = "Start";
-            btnStart.UseVisualStyleBackColor = true;
-            btnStart.Click += btnStart_Click;
+            Username.AutoSize = true;
+            Username.Location = new Point(11, 14);
+            Username.Name = "Username";
+            Username.Size = new Size(66, 15);
+            Username.TabIndex = 1;
+            Username.Text = "Username :";
             // 
-            // Nama
+            // txtUsername
             // 
-            Nama.AutoSize = true;
-            Nama.Location = new Point(11, 14);
-            Nama.Name = "Nama";
-            Nama.Size = new Size(45, 15);
-            Nama.TabIndex = 1;
-            Nama.Text = "Nama :";
-            // 
-            // txtPlayerName
-            // 
-            txtPlayerName.Location = new Point(62, 11);
-            txtPlayerName.Name = "txtPlayerName";
-            txtPlayerName.Size = new Size(284, 23);
-            txtPlayerName.TabIndex = 0;
+            txtUsername.Location = new Point(83, 11);
+            txtUsername.Name = "txtUsername";
+            txtUsername.Size = new Size(250, 23);
+            txtUsername.TabIndex = 0;
             // 
             // panelLeaderboard
             // 
@@ -115,18 +174,19 @@
             panelLeaderboard.Controls.Add(btnRefresh);
             panelLeaderboard.Controls.Add(label1);
             panelLeaderboard.Dock = DockStyle.Fill;
-            panelLeaderboard.Location = new Point(466, 0);
+            panelLeaderboard.Location = new Point(475, 0);
             panelLeaderboard.Name = "panelLeaderboard";
-            panelLeaderboard.Size = new Size(318, 561);
+            panelLeaderboard.Size = new Size(309, 581);
             panelLeaderboard.TabIndex = 1;
             // 
             // lvLeaderboard
             // 
-            lvLeaderboard.Columns.AddRange(new ColumnHeader[] { columnName, columnScore });
+            lvLeaderboard.Columns.AddRange(new ColumnHeader[] { columnName, columnScore, columnLevel });
             lvLeaderboard.Location = new Point(14, 46);
             lvLeaderboard.Name = "lvLeaderboard";
-            lvLeaderboard.Size = new Size(291, 484);
+            lvLeaderboard.Size = new Size(291, 501);
             lvLeaderboard.TabIndex = 2;
+            lvLeaderboard.TabStop = false;
             lvLeaderboard.UseCompatibleStateImageBehavior = false;
             lvLeaderboard.View = View.Details;
             // 
@@ -140,12 +200,16 @@
             columnScore.Text = "Score";
             columnScore.Width = 80;
             // 
+            // columnLevel
+            // 
+            columnLevel.Text = "Level";
+            // 
             // btnRefresh
             // 
             btnRefresh.Dock = DockStyle.Bottom;
-            btnRefresh.Location = new Point(0, 536);
+            btnRefresh.Location = new Point(0, 553);
             btnRefresh.Name = "btnRefresh";
-            btnRefresh.Size = new Size(316, 23);
+            btnRefresh.Size = new Size(307, 26);
             btnRefresh.TabIndex = 1;
             btnRefresh.Text = "Refresh";
             btnRefresh.UseVisualStyleBackColor = true;
@@ -156,7 +220,7 @@
             label1.Anchor = AnchorStyles.Top;
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label1.Location = new Point(55, 8);
+            label1.Location = new Point(50, 8);
             label1.Name = "label1";
             label1.Size = new Size(205, 25);
             label1.TabIndex = 0;
@@ -172,7 +236,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(784, 561);
+            ClientSize = new Size(784, 581);
             Controls.Add(panelLeaderboard);
             Controls.Add(panelGame);
             KeyPreview = true;
@@ -192,10 +256,9 @@
 
         private Panel panelGame;
         private Panel panelLeaderboard;
-        private TextBox txtPlayerName;
-        private Label Nama;
-        private Label lblScore;
-        private Button btnStart;
+        private TextBox txtUsername;
+        private Label Username;
+        private Label lblGameInfo;
         private PictureBox pbCanvas;
         private Label label1;
         private System.Windows.Forms.Timer gameTimer;
@@ -203,5 +266,12 @@
         private Button btnRefresh;
         private ColumnHeader columnName;
         private ColumnHeader columnScore;
+        private TextBox txtPassword;
+        private Label Password;
+        private Button btnStartNewGame;
+        private Button btnContinueGame;
+        private Button btnLogin;
+        private Button btnExitToMenu;
+        private ColumnHeader columnLevel;
     }
 }

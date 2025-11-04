@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Frontend
 {
-    public class HighScore
+    public class SaveState
     {
         public int Id { get; set; }
-        public string PlayerName { get; set; }
+        public int UserId { get; set; }
         public int Score { get; set; }
         public int Level { get; set; }
+        public string Direction { get; set; }
+        public string SnakeBodyJson { get; set; }
+        public string FoodPositionJson { get; set; }
     }
 }
