@@ -9,6 +9,62 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Asset\**" />
+    <EmbeddedResource Remove="Asset\**" />
+    <None Remove="Asset\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\body_horizontal.png" />
+    <None Remove="Resources\body_vertical.png" />
+    <None Remove="Resources\food.png" />
+    <None Remove="Resources\head_down.png" />
+    <None Remove="Resources\head_left.png" />
+    <None Remove="Resources\head_right.png" />
+    <None Remove="Resources\head_up.png" />
+    <None Remove="Resources\level_1.png" />
+    <None Remove="Resources\level_2.png" />
+    <None Remove="Resources\level_3.png" />
+    <None Remove="Resources\obstacle.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\body_horizontal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\body_vertical.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\food.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\head_down.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\head_left.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\head_right.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\head_up.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\level_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\level_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\level_3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\obstacle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.Net.Http.Json" Version="9.0.10" />
   </ItemGroup>
 
