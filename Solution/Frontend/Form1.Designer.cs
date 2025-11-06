@@ -235,8 +235,7 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleMode = AutoScaleMode.None;
             ClientSize = new Size(864, 725);
             Controls.Add(panelLeaderboard);
             Controls.Add(panelGame);

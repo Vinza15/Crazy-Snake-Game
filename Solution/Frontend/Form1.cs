@@ -55,7 +55,6 @@ namespace Frontend
         {
             InitializeComponent();
             InitializeLevels();
-            LoadHighScores();
             this.KeyPreview = true;
 
             try
@@ -717,7 +716,7 @@ namespace Frontend
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            LoadHighScores();
         }
     }
 }
