@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{1953D22F-D646-49C5-9465-7BE94F51A9D0}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1953D22F-D646-49C5-9465-7BE94F51A9D0}|Backend\\Backend.csproj|d:\\kuliah\\sem 5\\jarkom\\rest api\\crazy-snake-game\\solution\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1953D22F-D646-49C5-9465-7BE94F51A9D0}|Backend\\Backend.csproj|solutionrelative:backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E174AE4A-3E63-4D7E-A2FB-B9ECFE7BE2F3}|Frontend\\Frontend.csproj|d:\\kuliah\\sem 5\\jarkom\\rest api\\crazy-snake-game\\solution\\frontend\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E174AE4A-3E63-4D7E-A2FB-B9ECFE7BE2F3}|Frontend\\Frontend.csproj|solutionrelative:frontend\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,7 +35,7 @@
       "RelativeMoniker": "D:0:0:{1953D22F-D646-49C5-9465-7BE94F51A9D0}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E174AE4A-3E63-4D7E-A2FB-B9ECFE7BE2F3}|Frontend\\Frontend.csproj|d:\\kuliah\\sem 5\\jarkom\\rest api\\crazy-snake-game\\solution\\frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E174AE4A-3E63-4D7E-A2FB-B9ECFE7BE2F3}|Frontend\\Frontend.csproj|D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E174AE4A-3E63-4D7E-A2FB-B9ECFE7BE2F3}|Frontend\\Frontend.csproj|solutionrelative:frontend\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -78,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -95,6 +99,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Backend\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Backend\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-06T04:57:23.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LevelData.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Frontend\\LevelData.cs",
               "RelativeDocumentMoniker": "Frontend\\LevelData.cs",
@@ -102,12 +119,11 @@
               "RelativeToolTip": "Frontend\\LevelData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T18:19:28.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T18:19:28.314Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SaveState.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Frontend\\SaveState.cs",
               "RelativeDocumentMoniker": "Frontend\\SaveState.cs",
@@ -119,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Frontend\\User.cs",
               "RelativeDocumentMoniker": "Frontend\\User.cs",
@@ -131,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ScoresController.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\Controllers\\ScoresController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\ScoresController.cs",
@@ -143,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SaveStateController.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\Controllers\\SaveStateController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\SaveStateController.cs",
@@ -151,12 +167,11 @@
               "RelativeToolTip": "Backend\\Controllers\\SaveStateController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:52:48.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T17:52:48.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Backend.csproj",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\Backend.csproj",
               "RelativeDocumentMoniker": "Backend\\Backend.csproj",
@@ -164,12 +179,11 @@
               "RelativeToolTip": "Backend\\Backend.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-04T17:50:16.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T17:50:16.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\UsersController.cs",
@@ -181,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HighScore.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\HighScore.cs",
               "RelativeDocumentMoniker": "Backend\\HighScore.cs",
@@ -189,12 +203,11 @@
               "RelativeToolTip": "Backend\\HighScore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T17:48:22.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T17:48:22.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "SaveState.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\SaveState.cs",
               "RelativeDocumentMoniker": "Backend\\SaveState.cs",
@@ -206,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\User.cs",
               "RelativeDocumentMoniker": "Backend\\User.cs",
@@ -218,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Frontend\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Frontend\\Form1.Designer.cs",
@@ -226,12 +239,11 @@
               "RelativeToolTip": "Frontend\\Form1.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAADwvxYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T16:32:24.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T16:32:24.265Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "HighScore.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Frontend\\HighScore.cs",
               "RelativeDocumentMoniker": "Frontend\\HighScore.cs",
@@ -243,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Frontend.csproj",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Frontend\\Frontend.csproj",
               "RelativeDocumentMoniker": "Frontend\\Frontend.csproj",
@@ -261,14 +273,14 @@
               "RelativeDocumentMoniker": "Backend\\Program.cs",
               "ToolTip": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\Program.cs",
               "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T16:12:52.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ApiDbContext.cs",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Backend\\ApiDbContext.cs",
               "RelativeDocumentMoniker": "Backend\\ApiDbContext.cs",
@@ -276,8 +288,7 @@
               "RelativeToolTip": "Backend\\ApiDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T16:11:23.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T16:11:23.959Z"
             },
             {
               "$type": "Document",
@@ -287,22 +298,21 @@
               "RelativeDocumentMoniker": "Frontend\\Form1.cs",
               "ToolTip": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Frontend\\Form1.cs",
               "RelativeToolTip": "Frontend\\Form1.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCsAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-29T15:23:50.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Frontend\\Form1.cs",
               "RelativeDocumentMoniker": "Frontend\\Form1.cs",
               "ToolTip": "D:\\Kuliah\\Sem 5\\Jarkom\\Rest API\\Crazy-Snake-Game\\Solution\\Frontend\\Form1.cs [Design]",
               "RelativeToolTip": "Frontend\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T14:37:56.365Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-29T14:37:56.365Z"
             }
           ]
         }

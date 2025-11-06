@@ -44,7 +44,12 @@ namespace Frontend
         private const string ApiUsersUrl = "https://wailsome-pitchable-kesha.ngrok-free.dev/api/users";
         private const string ApiScoresUrl = "https://wailsome-pitchable-kesha.ngrok-free.dev/api/scores";
         private const string ApiSaveStateUrl = "https://wailsome-pitchable-kesha.ngrok-free.dev/api/savestate";
-        private static readonly HttpClient apiClient = new HttpClient();
+        // Modifikasi ini akan "mempercayai" sertifikat keamanan ngrok
+        private static readonly HttpClient apiClient = new HttpClient(new HttpClientHandler
+        {
+            // PENTING: Mengabaikan error validasi sertifikat SSL
+            ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => true
+        });
 
         public Form1()
         {
