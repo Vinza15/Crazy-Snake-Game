@@ -41,9 +41,9 @@ namespace Frontend
         private Image foodAsset;
         private Image obstacleAsset;
 
-        private const string ApiUsersUrl = "http://localhost:5238/api/users";
-        private const string ApiScoresUrl = "http://localhost:5238/api/scores";
-        private const string ApiSaveStateUrl = "http://localhost:5238/api/savestate";
+        private const string ApiUsersUrl = "https://wailsome-pitchable-kesha.ngrok-free.dev/api/users";
+        private const string ApiScoresUrl = "https://wailsome-pitchable-kesha.ngrok-free.dev/api/scores";
+        private const string ApiSaveStateUrl = "https://wailsome-pitchable-kesha.ngrok-free.dev/api/savestate";
         private static readonly HttpClient apiClient = new HttpClient();
 
         public Form1()
