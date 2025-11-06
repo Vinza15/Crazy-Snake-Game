@@ -63,3 +63,15 @@ D:\Kuliah\Sem 5\Jaringan Komputer\Crazy-Snake-Game\Solution\Frontend\bin\Debug\n
 D:\Kuliah\Sem 5\Jaringan Komputer\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\level_1.png
 D:\Kuliah\Sem 5\Jaringan Komputer\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\level_2.png
 D:\Kuliah\Sem 5\Jaringan Komputer\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\level_3.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\body_horizontal.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\body_vertical.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\food.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\head_down.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\head_left.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\head_right.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\head_up.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\level_1.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\level_2.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\level_3.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\obstacle.png
+D:\Kuliah\Sem 5\Jarkom\Rest API\Crazy-Snake-Game\Solution\Frontend\bin\Debug\net8.0-windows\Resources\snake.wav

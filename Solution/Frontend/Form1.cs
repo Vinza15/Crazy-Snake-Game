@@ -7,12 +7,15 @@ using System.Net.Http.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Text.Json;
+using System.Media;
+using System.IO;
 
 namespace Frontend
 {
     public partial class Form1 : Form
     {
         private int segmentSize = 20;
+        private SoundPlayer bgmPlayer;
         private List<Point> Snake;
         private Point Food;
         private string direction;
@@ -49,6 +52,30 @@ namespace Frontend
             InitializeLevels();
             LoadHighScores();
             this.KeyPreview = true;
+
+            try
+            {
+                bgmPlayer = new SoundPlayer();
+
+                // Membuat path lengkap (absolut) ke file sound
+                string executablePath = AppDomain.CurrentDomain.BaseDirectory;
+                string soundFilePath = Path.Combine(executablePath, "Resources/snake.wav");
+
+                // Cek apakah file benar-benar ada sebelum mencoba memuat
+                if (File.Exists(soundFilePath))
+                {
+                    bgmPlayer.SoundLocation = soundFilePath;
+                    bgmPlayer.PlayLooping();
+                }
+                else
+                {
+                    MessageBox.Show("File BGM tidak ditemukan di: " + soundFilePath);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Gagal memuat BGM (.wav): " + ex.Message);
+            }
 
             try
             {
@@ -586,6 +613,8 @@ namespace Frontend
             {
                 SaveGameAsync().Wait();
             }
+
+            bgmPlayer.Stop();
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)
