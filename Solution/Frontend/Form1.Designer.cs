@@ -75,9 +75,9 @@
             // btnExitToMenu
             // 
             btnExitToMenu.Dock = DockStyle.Bottom;
-            btnExitToMenu.Location = new Point(0, 700);
+            btnExitToMenu.Location = new Point(0, 685);
             btnExitToMenu.Name = "btnExitToMenu";
-            btnExitToMenu.Size = new Size(544, 23);
+            btnExitToMenu.Size = new Size(544, 38);
             btnExitToMenu.TabIndex = 10;
             btnExitToMenu.Text = "Keluar ke Menu";
             btnExitToMenu.UseVisualStyleBackColor = true;
@@ -86,9 +86,9 @@
             // btnStartNewGame
             // 
             btnStartNewGame.Enabled = false;
-            btnStartNewGame.Location = new Point(218, 75);
+            btnStartNewGame.Location = new Point(281, 70);
             btnStartNewGame.Name = "btnStartNewGame";
-            btnStartNewGame.Size = new Size(81, 23);
+            btnStartNewGame.Size = new Size(81, 28);
             btnStartNewGame.TabIndex = 9;
             btnStartNewGame.Text = "Game Baru";
             btnStartNewGame.UseVisualStyleBackColor = true;
@@ -97,9 +97,9 @@
             // btnContinueGame
             // 
             btnContinueGame.Enabled = false;
-            btnContinueGame.Location = new Point(112, 75);
+            btnContinueGame.Location = new Point(112, 70);
             btnContinueGame.Name = "btnContinueGame";
-            btnContinueGame.Size = new Size(75, 23);
+            btnContinueGame.Size = new Size(75, 28);
             btnContinueGame.TabIndex = 8;
             btnContinueGame.Text = "Lanjutkan";
             btnContinueGame.UseVisualStyleBackColor = true;
@@ -107,9 +107,9 @@
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(344, 26);
+            btnLogin.Location = new Point(405, 26);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(117, 23);
+            btnLogin.Size = new Size(126, 33);
             btnLogin.TabIndex = 7;
             btnLogin.Text = "Login / Register";
             btnLogin.UseVisualStyleBackColor = true;
@@ -117,7 +117,7 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(83, 41);
+            txtPassword.Location = new Point(112, 41);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(250, 23);
             txtPassword.TabIndex = 6;
@@ -163,7 +163,7 @@
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(83, 11);
+            txtUsername.Location = new Point(112, 10);
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(250, 23);
             txtUsername.TabIndex = 0;
@@ -208,9 +208,9 @@
             // btnRefresh
             // 
             btnRefresh.Dock = DockStyle.Bottom;
-            btnRefresh.Location = new Point(0, 697);
+            btnRefresh.Location = new Point(0, 685);
             btnRefresh.Name = "btnRefresh";
-            btnRefresh.Size = new Size(316, 26);
+            btnRefresh.Size = new Size(316, 38);
             btnRefresh.TabIndex = 1;
             btnRefresh.Text = "Refresh";
             btnRefresh.UseVisualStyleBackColor = true;
