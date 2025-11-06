@@ -134,6 +134,7 @@
             // 
             // pbCanvas
             // 
+            pbCanvas.Anchor = AnchorStyles.None;
             pbCanvas.BackColor = SystemColors.AppWorkspace;
             pbCanvas.Location = new Point(11, 135);
             pbCanvas.Name = "pbCanvas";
